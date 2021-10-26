@@ -1,4 +1,4 @@
-//TODO Học hàm setTimeout và clearTimeout
+/* //TODO Học hàm setTimeout và clearTimeout
 //!----> setTimeout sẽ làm một hàm gì đó sau khoảng thời gian quy định
 //*syntax setTimeout(fn, ms) // milliseconds
 //?có thể tạo hàm ở ngoài rồi truyền vô
@@ -13,7 +13,10 @@ console.log("Start");
 //!tạo hàm ở ngoài rồi truyền vô
 var timeoutId = setTimeout(done, 1000);
 clearTimeout(timeoutId);//*xóa timeout
-console.log("END");
+console.log("END");*/
 
+var Dog = require('./Dog');
 
+var dog = new Dog('Tom');
+dog.sayHi();
 

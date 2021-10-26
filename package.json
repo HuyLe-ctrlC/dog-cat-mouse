@@ -1,0 +1,14 @@
+{
+  "name": "settimeout",
+  "version": "1.0.0",
+  "description": "THIS IS PROJECT FOR FUN HOW TO UES GIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
