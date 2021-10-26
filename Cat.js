@@ -2,7 +2,7 @@ var Mouse = require("./Mouse");
 
 function Cat() {
   this.stomach = [];
-  this.dead = false;
+  this.isDead = false;
 }
 
 Cat.prototype.eat = function (mouse) {
