@@ -13,12 +13,21 @@ console.log("Start");
 //!tạo hàm ở ngoài rồi truyền vô
 var timeoutId = setTimeout(done, 2000);
 // clearTimeout(timeoutId);//*xóa timeout
-console.log("END");
+console.log("Just a minute");
 
 var Dog = require("./Dog");
+var Mouse = require("./Mouse");
 var Cat = require("./Cat");
 
-var dog = new Dog("Tom");
-var tom = new Cat();
-dog.eat(tom);
-console.log(dog);
+var cat = new Cat("TOM");
+var mouse = new Mouse("JERRY");
+var dog = new Dog();
+cat.eat(mouse);
+
+try {
+  cat.eat(dog);
+} catch (error) {
+  console.log('ERROR when cat eat dog');
+}
+
+console.log(cat);
